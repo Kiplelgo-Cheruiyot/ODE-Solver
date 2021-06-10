@@ -48,7 +48,7 @@ elseif (b^2-4*a*c) == 0
     
     % Constants to be determined from the Initial Conditions
     % At x=0 y = A and
-    % and y` = r1A + r2B
+    % and y` = r1A + B
     
     constMatrix2 = linsolve ([[1, 0]; [rootsCase2(1,1), 1]], [inCon1;inCon2]);
     
